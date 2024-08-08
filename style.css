@@ -1,4 +1,4 @@
-/* Reset básico */
+/* Estilos Gerais */
 * {
     margin: 0;
     padding: 0;
@@ -6,13 +6,32 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte padrão para todo o corpo */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    background-color: #f0f0f0; /* Cor de fundo da página */
 }
 
+h1 {
+    font-size: 2.5em; /* Tamanho do texto do título principal */
+    font-family: 'Georgia', serif; /* Fonte do título principal */
+    margin: 0;
+}
+
+h2 {
+    font-size: 20px; /* Tamanho do texto do subtítulo */
+    font-family: 'Times New Roman', serif; /* Fonte do subtítulo */
+    color: #00008B; /* Azul escuro */
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 20px; /* Espaçamento abaixo dos parágrafos */
+    font-size: 16px; /* Tamanho do texto dos parágrafos */
+}
+
+/* Estilos do Header */
 header {
-    background-color: #00008B; /* Tomate vibrante */
+    background-color: #00008B; /* Azul escuro */
     color: #fff;
     padding: 20px 0;
 }
@@ -26,10 +45,10 @@ header .container {
 }
 
 header h1 {
-    font-size: 2.5em;
-    margin: 0;
+    font-size: 2.5em; /* Tamanho do título no header */
 }
 
+/* Estilos de Navegação */
 nav ul {
     list-style: none;
     display: flex;
@@ -50,11 +69,13 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* Estilos do Main */
 main.container {
     width: 90%;
     margin: 20px auto;
 }
 
+/* Estilos dos Posts */
 .post {
     margin-bottom: 30px;
     background-color: #fff;
@@ -76,10 +97,10 @@ main.container {
 }
 
 .post h2 {
-    color: #00008B; /* Tomate vibrante */
-    margin-bottom: 15px;
+    color: #00008B; /* Azul escuro */
 }
 
+/* Estilos do Read More */
 .read-more {
     display: inline-block;
     margin-top: 10px;
@@ -92,6 +113,7 @@ main.container {
     text-decoration: underline;
 }
 
+/* Estilos do Footer */
 footer {
     background-color: #333;
     color: #fff;
